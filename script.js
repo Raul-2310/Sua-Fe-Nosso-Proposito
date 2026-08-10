@@ -1,7 +1,7 @@
 const whatsapp = "5585988112861";
 
 const products = [
-  {name:"Bíblia Sagrada — edição clássica", category:"Bíblias", price:"R$ 49,90", icon:"BÍBLIA SAGRADA"},
+  {name:"Bíblia Sagrada — edição clássica", category:"Bíblias", price:"R$ 49,90", icon:"BÍBLIA SAGRADA"},link:"https://go.hotmart.com/D107093049S"
   {name:"Bíblia de estudo", category:"Bíblias", price:"R$ 89,90", icon:"BÍBLIA DE ESTUDO"},
   {name:"Livro devocional", category:"Livros", price:"R$ 34,90", icon:"DEVOCIONAL"},
   {name:"Livro cristão — fé e propósito", category:"Livros", price:"R$ 39,90", icon:"FÉ & PROPÓSITO"},
