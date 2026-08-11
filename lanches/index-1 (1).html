@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lanches da Tia Ana | Cardápio</title>
+<meta name="description" content="Cardápio online Lanches da Tia Ana">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f8f7df;color:#40342d;font-family:Arial,Helvetica,sans-serif}
+.page{max-width:760px;margin:auto;padding:28px 18px 40px}
+.decor{text-align:center;font-size:32px;letter-spacing:8px;margin-bottom:8px}
+h1{text-align:center;font:500 clamp(42px,10vw,68px) Georgia,serif;margin:0 0 30px}
+.section{margin-bottom:34px}
+.header,.item{display:grid;grid-template-columns:1fr 145px;gap:14px}
+.header div{background:#4a3a31;color:#fff7d9;border-radius:9px;padding:12px 14px;font-size:21px;font-weight:bold}
+.item{align-items:center;padding:12px 2px;border-bottom:2px dotted #65584e;font-size:clamp(19px,4.5vw,27px)}
+.price{text-align:right;padding-right:10px;white-space:nowrap}
+.order{display:block;width:min(90%,580px);margin:55px auto 28px;padding:17px 24px;border:2px solid #6a625d;border-radius:40px;background:white;color:#3f342d;text-decoration:none;text-align:center;font-size:25px;font-weight:bold;box-shadow:0 8px 12px #0002}
+.address{text-align:center;font-size:20px;line-height:1.5;margin-bottom:24px}
+.brand{text-align:center;margin-top:12px}
+.drop{display:inline-block;font-size:42px;color:#f3b512;margin-right:8px;vertical-align:middle}
+.brand-name{display:inline-block;text-align:left;vertical-align:middle;font:700 28px/.9 Georgia,serif}
+.notice{text-align:center;font-size:13px;color:#746a63;margin-top:28px}
+@media(max-width:520px){
+.page{padding:20px 12px 30px}.header,.item{grid-template-columns:1fr 105px;gap:8px}
+.header div{font-size:17px;padding:11px 10px}.item{font-size:19px;padding:11px 2px}
+.order{width:94%;font-size:21px}.address{font-size:17px}.brand-name{font-size:24px}
+}
+</style>
+</head>
+<body>
+<main class="page">
+<div class="decor">⌒〰⌒</div>
+<h1>Cardápio</h1>
+
+<section class="section">
+<div class="header"><div>produto</div><div>preço</div></div>
+<div class="item"><div>Coxinha</div><div class="price">R$ 6,00</div></div>
+<div class="item"><div>Misto</div><div class="price">R$ 6,00</div></div>
+<div class="item"><div>Enroladinho de salsicha</div><div class="price">R$ 6,00</div></div>
+<div class="item"><div>Carne com queijo</div><div class="price">R$ 6,00</div></div>
+<div class="item"><div>Frango com queijo</div><div class="price">R$ 6,00</div></div>
+</section>
+
+<section class="section">
+<div class="header"><div>bebidas</div><div>preço</div></div>
+<div class="item"><div>Coca lata</div><div class="price">R$ 7,00</div></div>
+<div class="item"><div>Sprite</div><div class="price">R$ 6,00</div></div>
+</section>
+
+<!-- Troque o href abaixo pelo WhatsApp da Lanches da Tia Ana -->
+<a class="order" href="https://wa.me/5585988112861" target="_blank" rel="noopener">🔗 &nbsp; Peça já</a>
+
+<div class="address">Avenida José Calvante Prata, Olho d'Água,<br>Maracanaú - CE</div>
+
+<div class="brand"><span class="drop">◆</span><span class="brand-name">lanches da<br>tia Ana</span></div>
+<div class="notice">Cardápio online • Lanches da Tia Ana</div>
+</main>
+</body>
+</html>
