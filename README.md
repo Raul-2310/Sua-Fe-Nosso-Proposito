@@ -1,19 +1,18 @@
-# Sua Fé, Nosso Propósito ✝️
+# Bíblia do Minecraft
 
-Site estático da loja cristã **Sua Fé, Nosso Propósito**.
+Página oficial de divulgação da Bíblia do Minecraft.
 
 ## Arquivos
-- `index.html` — estrutura e conteúdo da loja
-- `style.css` — visual profissional e responsivo
-- `script.js` — produtos, filtros e links de compra pelo WhatsApp
 
-## Antes de vender
-1. Edite os produtos no `script.js` com os nomes e preços reais.
-2. Troque as imagens ilustrativas por fotos reais dos produtos quando tiver.
-3. Confira o número do WhatsApp na variável `whatsapp`.
-4. Configure o domínio depois de publicar o site.
+- `index.html` — estrutura da página
+- `style.css` — aparência e responsividade
+- `script.js` — interações e WhatsApp
+- `CNAME` — configuração do domínio personalizado
 
-## Observação
-Esta primeira versão é um site estático. Os botões de compra direcionam o cliente para o WhatsApp; ela não processa pagamento automaticamente.
+## Compra
 
-WhatsApp atual: (85) 98811-2861
+O botão de compra direciona para a página da Hotmart.
+
+## Suporte
+
+O WhatsApp disponível no rodapé é destinado exclusivamente a dúvidas sobre o produto.
